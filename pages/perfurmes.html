@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumes</title>
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/fume.css">
+    <link rel="stylesheet" href="../BootStrap/css/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="#top">Perfumes</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <section id="produtos">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Coleção Exclusiva</h2>
+                    <div class="card">
+                        <img src="../images/produto1.jpg" alt="produto1" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Essência Floral</h5>
+                            <p>Uma fragrância floral delicada para momentos especiais.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="../images/produto2.jpg" alt="produto2" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Mistério Oriental</h5>
+                            <p>Notas marcantes de especiarias e madeiras exóticas.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="../images/produto3.jpg" alt="produto3" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Frescura Cítrica</h5>
+                            <p>Uma explosão refrescante para dias ensolarados.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-cor">Ver produto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<div class="modal fade" id="modal-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title">Essência Floral</h5>
+                <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table class="table table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th>VALOR</th>
+                            <th>R$ 399,00</th>
+                        </tr>
+                    </thead>
+                </table>
+
+                <h2>Descrição</h2>
+                <p>Essência Floral é uma celebração à delicadeza e à beleza natural das flores. Com notas de cabeça
+                frescas e suaves de rosa damascena, a fragrância evolui para um coração floral exuberante com jasmim
+                e peônia, transmitindo elegância e feminilidade. O toque final é uma base sutil de almíscar branco e
+                baunilha, criando uma sensação de calor e conforto. Ideal para quem busca uma fragrância romântica 
+                e suave, perfeita para ocasiões especiais e encontros memoráveis.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal-2">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title">Mistério Oriental</h5>
+                <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table class="table table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th>VALOR</th>
+                            <th>R$ 459,00</th>
+                        </tr>
+                    </thead>
+                </table>
+
+                <h2>Descrição</h2>
+                <p>Mistério Oriental é um convite a uma jornada olfativa intensa e misteriosa. Com sua combinação única
+                    de especiarias raras e madeiras preciosas, esta fragrância é perfeita para quem deseja deixar uma 
+                    impressão inesquecível. Notas de cabeça picantes de açafrão e cardamomo abrem a composição, seguidas
+                    por um coração quente e sensual de incenso e sândalo. A base é envolvente, com notas de âmbar, patchouli 
+                    e couro, criando um rastro irresistível de poder e sofisticação.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal-cor">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title">Frescura Cítrica</h5>
+                <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table class="table table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th>VALOR</th>
+                            <th>R$ 349,00</th>
+                        </tr>
+                    </thead>
+                </table>
+
+                <h2>Descrição</h2>
+                <p>Frescura Cítrica é uma fragrância vibrante e revigorante, perfeita para quem ama a energia e a
+                    leveza dos dias ensolarados. Com uma abertura cintilante de limão siciliano e bergamota, a 
+                    fragrância é complementada por um coração de flor de laranjeira e verbena, que adicionam uma 
+                    suavidade natural. As notas de fundo de almíscar e cedro dão um toque refinado, proporcionando 
+                    uma sensação de frescor duradoura. Ideal para o uso diário, essa fragrância é perfeita para 
+                    momentos descontraídos ao ar livre ou para trazer um toque de verão ao seu dia.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer>© 2024 SuaMarca. Todos os direitos reservados.
+        <a href="#"><img src="../images/logo-instagram.jpg" alt="instagram,"></a>
+        <a href="#"><img src="../images/logo-facebook.jpg" alt="facebook"></a>
+    </footer>
+<script src="../BootStrap/js/bootstrap.min.js"></script>
+</body>
+</html>

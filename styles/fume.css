@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Playfair Display", serif;
+
+}
+
+body {
+    background-color: black;
+    background-image: url(../images/Banner5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.521);
+    overflow-x: hidden
+}
+
+header {
+    width: 100vw;
+    margin: auto;
+}
+
+.logo {
+    background-image: url(../images/logo1.png);
+    width: 300px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 10px;
+}
+
+nav a {
+    color: #FFD700;
+    text-decoration: none;
+    text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.5);
+    font-size: 21px;
+    margin: 0 15px;
+    transition-duration: .3s;
+}
+
+nav a:hover {
+    transform: translate(-3px, -3px);
+    text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.5);
+}
+
+.card {
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+
+#produtos {
+    background-color: rgba(0, 0, 0, 0.473);
+    padding: 15px;
+}
+
+#produtos  a {
+    background-color: #ffd900d2;
+    color: #000000;
+    padding: 10px 15px;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.527);
+    box-shadow: 2px 2px 7px #f3e07744;
+    border: none;
+    font-weight: 700;
+}
+
+#produtos a:hover {
+    background-color: #ffd900a4;
+    color: #000000e7;
+    box-shadow: 2px 2px 5px #f3e077a8;
+}
+
+#produtos h2 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 7px #f3e0777c;
+    font-size: 2.6rem;
+    text-align: center;
+}
+
+#produtos h5 {
+    color: #FFD700;
+    text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.486);
+}
+
+#produtos p {
+    color: rgb(255, 255, 255);
+}
+
+#produtos .card {
+    background-color: rgba(0, 255, 255, 0);
+}
+
+#produtos img {
+    box-shadow:  5px 5px 10px #f3e07734;
+    border-radius: 10px;
+    transition-duration: .4s;
+    cursor: pointer;
+}
+
+#produtos img:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px #f3e07771;
+}
+
+footer {
+    color: #000000;
+    padding: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px 7px #000000;
+}
+
+footer img {
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 30px;
+    box-shadow: 2px 2px 7px #f3e07771;
+    transition-duration: .3s;
+}
+
+footer img:hover {
+    transform: translate(-3px, -3px);
+}
+
+/* MODAL STYLE */
